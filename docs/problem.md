@@ -1,26 +1,26 @@
 # Green SM Competitor Intelligence Agent
 
-## 1. Giới thiệu bài toán
+## 1. Problem Statement
 
-Trong thị trường gọi xe công nghệ ngày càng cạnh tranh, Green SM cần liên tục theo dõi hoạt động marketing và chiến lược nội dung của các đối thủ như Grab, Be và các thương hiệu mobility khác.
+In an increasingly competitive ride-hailing market, Green SM needs to continuously monitor competitors' marketing activities and content strategies, such as Grab, Be, and other mobility brands.
 
-Tuy nhiên, dữ liệu từ các nền tảng như YouTube, TikTok và Facebook rất lớn và thay đổi liên tục. Việc theo dõi thủ công khiến đội ngũ marketing khó trả lời nhanh các câu hỏi:
+However, data from platforms such as YouTube, TikTok, and Facebook is large-scale and constantly changing. Manual monitoring makes it difficult for marketing teams to quickly answer key questions:
 
-- Đối thủ đang tập trung vào chủ đề gì?
-- Nội dung nào của đối thủ đang có hiệu quả tốt?
-- Họ đang sử dụng những campaign nào?
-- Hook và format nào đang được sử dụng nhiều?
-- Audience đang phản ứng tích cực hay tiêu cực với nội dung nào?
-- Đối thủ đang khai thác khoảng trống nội dung nào?
-- Green SM nên tạo nội dung gì để cạnh tranh?
+- What topics are competitors focusing on?
+- Which competitor content is performing well?
+- What campaigns are competitors running?
+- Which hooks and content formats are they using?
+- How is the audience responding to their content?
+- What content opportunities are competitors missing?
+- What content should Green SM create to compete effectively?
 
-Vì vậy, dự án **Green SM Competitor Intelligence Agent** được xây dựng nhằm tự động thu thập, phân tích và tổng hợp hoạt động content marketing của đối thủ thành các actionable insights cho Green SM.
+Therefore, the **Green SM Competitor Intelligence Agent** is designed to automatically collect, analyze, and synthesize competitors' content marketing activities into actionable insights for Green SM.
 
 ---
 
-## 2. Mục tiêu
+## 2. Objective
 
-Agent hướng tới việc chuyển đổi dữ liệu marketing thô thành quy trình:
+The agent aims to transform raw marketing data into the following intelligence pipeline:
 
 ```text
 Raw Marketing Data
