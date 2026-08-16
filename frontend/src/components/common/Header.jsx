@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { User } from "lucide-react";
+import { UserRound, ChevronDown } from "lucide-react";
 
 function Header() {
   return (
@@ -8,7 +8,11 @@ function Header() {
 
         {/* Logo */}
         <NavLink to="/" className="logo">
-          GSMAI
+          <span className="logo-mark">G</span>
+
+          <span className="logo-text">
+            GSM<span>AI</span>
+          </span>
         </NavLink>
 
         {/* Navigation */}
@@ -41,9 +45,19 @@ function Header() {
           </NavLink>
         </nav>
 
-        {/* User image - temporary */}
-        <div className="user-avatar">
-          <User size={20} />
+        {/* Right side */}
+        <div className="header-right">
+
+          <div className="header-divider" />
+
+          <button className="profile-button">
+            <div className="profile-avatar">
+              <UserRound size={17} />
+            </div>
+
+            <ChevronDown size={15} />
+          </button>
+
         </div>
 
       </div>
