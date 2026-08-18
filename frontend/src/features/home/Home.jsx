@@ -1,23 +1,17 @@
 import "./Home.css";
 
-import HomeSidebar from "./HomeSidebar";
 import ChatAgent from "./ChatAgent";
 import SmartResult from "./SmartResult";
 
 function Home() {
   return (
-    <main className="home-page">
-      <div className="home-layout">
+    <div className="home-content">
 
-        <HomeSidebar />
+      <ChatAgent />
 
-        <section className="home-content">
-          <ChatAgent />
-          <SmartResult />
-        </section>
+      <SmartResult />
 
-      </div>
-    </main>
+    </div>
   );
 }
 
