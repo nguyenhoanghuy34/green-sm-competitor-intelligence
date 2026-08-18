@@ -5,6 +5,8 @@ import {
   Sparkles,
 } from "lucide-react";
 
+import "./Home.css";
+
 function Home() {
   return (
     <section className="home">

@@ -1,5 +1,7 @@
 import { Newspaper, ArrowRight } from "lucide-react";
 
+import "./News.css";
+
 function News() {
   return (
     <section className="inner-page">

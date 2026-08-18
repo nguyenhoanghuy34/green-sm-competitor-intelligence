@@ -1,0 +1,20 @@
+:root {
+  --bg-primary: #050907;
+  --bg-secondary: #08100b;
+
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.08);
+
+  --green: #22c55e;
+  --green-light: #4ade80;
+
+  --text-primary: #f0fdf4;
+  --text-secondary: #89968f;
+  --text-muted: #59665e;
+
+  --radius-sm: 9px;
+  --radius-md: 15px;
+  --radius-lg: 20px;
+
+  --blur: 20px;
+}

@@ -1,5 +1,7 @@
 import { Sparkles, Target, BookOpen } from "lucide-react";
 
+import "./About.css";
+
 function About() {
   return (
     <section className="inner-page">
