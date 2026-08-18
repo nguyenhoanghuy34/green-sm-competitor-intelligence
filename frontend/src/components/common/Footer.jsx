@@ -3,18 +3,19 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-
       <div className="footer-container">
 
         <div className="footer-top">
 
           <div>
-            <div className="footer-logo">
-              <span className="logo-mark small">G</span>
+            <div className="logo">
+              <div className="logo-mark">
+                G
+              </div>
 
-              <span className="logo-text">
-                GSM<span>AI</span>
-              </span>
+              <div className="logo-text">
+                GSMAI
+              </div>
             </div>
 
             <p className="footer-description">
@@ -22,16 +23,15 @@ function Footer() {
             </p>
           </div>
 
-          <div className="footer-note">
+          <p className="footer-note">
             Built for research, education and information sharing.
-          </div>
+          </p>
 
         </div>
 
         <div className="footer-line" />
 
         <div className="footer-bottom">
-
           <span>
             © 2026 GSMAI. All rights reserved.
           </span>
@@ -39,11 +39,9 @@ function Footer() {
           <span>
             This is a non-profit project.
           </span>
-
         </div>
 
       </div>
-
     </footer>
   );
 }
