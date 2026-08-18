@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { UserRound, ChevronDown } from "lucide-react";
+import "./Header.css";
 
 function Header() {
   return (
